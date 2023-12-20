@@ -14,6 +14,7 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
+// Size should be decimal number (not hexadecimal)
 size = parseInt(process.argv[2], 10)
 
 for (let i = 0 ; i < size ; i ++) {
